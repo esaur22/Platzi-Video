@@ -17,12 +17,48 @@ body{
 
  }
  .division{
+     
      display: grid;
-     grid-template: repeat(2, 1fr) / 300px 1fr;
+     grid-template: repeat(2, 1fr) / 350px 1fr;
      height: 100vh;
      grid-template-areas: "playlist video"
                           "playlist comentarios"
  }
+ 
  .playlist, .video, .comentarios{
     border: 1px solid red;
  }
+ .playlist{
+     padding: 20px 30px 20px 10px;
+     background-color: #151B31;
+     color: white;
+ }
+
+ .imageContainer img{
+    /* object-fit: cover; */
+    max-width: 100%;
+ }
+ .titulo{
+     font-size: 20px;
+ }
+ .videos p:hover{
+ cursor: pointer;
+ 
+ }
+ .amigos{
+    display: block; 
+ }
+ .amigos a{
+     display: flex;
+     margin: auto auto 10px 5px;
+     text-decoration: none;
+     align-items: center;
+     color: white;
+ }
+ .amigos a img{
+     width: 50px;
+     border-radius: 25px;
+     margin-right: 5px;
+ }
+ 
+
