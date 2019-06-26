@@ -1,0 +1,28 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background: red; */
+}
+.container{
+    max-width: 1200px;
+    flex: 1;
+    /* justify-content:  */
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+
+ }
+ .division{
+     display: grid;
+     grid-template: repeat(2, 1fr) / 300px 1fr;
+     height: 100vh;
+     grid-template-areas: "playlist video"
+                          "playlist comentarios"
+ }
+ .playlist, .video, .comentarios{
+    border: 1px solid red;
+ }
