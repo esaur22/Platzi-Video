@@ -143,6 +143,65 @@ body{
 box-shadow: 0px 1px 2px 0px rgba(201,201,201,1);
 margin: 10px -10px;
  }
+ .comment{
+     display: grid;
+     grid-template: 410px  / 500px 1fr;
+     /* height: 100vh; */
+ }
+ .item, .addcomment{
+     border: 1px solid blue;
+ }
+ .addcomment{
+     padding: 20px;
+ }
+ .addcomment p{
+     margin-bottom: 20px;
+ }
+ .comentario{
+     display: flex;
+     justify-content: start;
+     align-content: center;
+ }
+ .comentario img{
+    width: 50px;
+    /* height:  */
+    border-radius: 25px 25px 17px 17px; 
+    margin-right:8px; 
+ }
+ .comentario input{
+     background-color:white;
+     width: 300px;
+     cursor: text;
+     	
+    border-left:none;
+    border-right: none;
+    border-top: none;      
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+ }
+ .contenedor img{
+    width: 50px;
+    /* height:  */
+    border-radius: 25px 25px 17px 17px; 
+    margin-right:8px; 
+ }
+ .contenedor{
+     margin-top: 20px;
+     display: flex;
+     align-content: center;
+ }
+ .texto{
+     display: block
+ }
+ .texto p{
+     margin: 0;
+     font-weight: bold;
+     color: black;
+ }
+ .texto span{
+     font-weight: 400;
+     color: #60606F
+ }
 
  
 
