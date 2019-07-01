@@ -19,10 +19,10 @@ body{
  .division{
      
      display: grid;
-     grid-template: repeat(2, 1fr) / 350px 1fr;
+     grid-template:  1fr / 350px 1fr;
      height: 100vh;
      grid-template-areas: "playlist video"
-                          "playlist comentarios"
+                          
  }
  
  .playlist, .video, .comentarios{
