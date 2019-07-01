@@ -60,5 +60,12 @@ body{
      border-radius: 25px;
      margin-right: 5px;
  }
+ .video{
+     display: grid;
+     grid-template: 350px 1fr / 1fr; 
+ }
+ .pantalla, .comentarios{
+     border: 1px solid red;
+ }
  
 
