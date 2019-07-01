@@ -26,7 +26,7 @@ body{
  }
  
  .playlist, .video, .comentarios{
-    border: 1px solid red;
+    /* border: 1px solid red; */
  }
  .playlist{
      padding: 20px 30px 20px 10px;
@@ -65,7 +65,7 @@ body{
      grid-template: 350px 1fr / 1fr; 
  }
  .pantalla, .comentarios{
-     border: 1px solid red;
+     /* border: 1px solid red; */
  }
  .comentarios{
      padding: 10px;
@@ -145,15 +145,21 @@ margin: 10px -10px;
  }
  .comment{
      display: grid;
-     grid-template: 410px  / 500px 1fr;
+     grid-template: 510px  / 500px 1fr;
      /* height: 100vh; */
+    
+     
  }
- .item, .addcomment{
-     border: 1px solid blue;
+ 
+ .sugerencias, .addcomment{
+     /* border: 1px solid blue; */
  }
  .addcomment{
      padding: 20px;
  }
+ .comment :hover{
+    cursor: default;
+ } 
  .addcomment p{
      margin-bottom: 20px;
  }
@@ -179,6 +185,9 @@ margin: 10px -10px;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 
  }
+ .comentario input:hover{
+cursor: text; 
+}
  .contenedor img{
     width: 50px;
     /* height:  */
@@ -202,6 +211,22 @@ margin: 10px -10px;
      font-weight: 400;
      color: #60606F
  }
+ .sugerencias p{
+    padding: 20px 20px 10px 20px;
+ }
+ .sugerencias img{
+     width: 60%
+ }
+ .sugerencias .name{
+     display: flex;
+     justify-items: start;
+ }
+ .sugerencias img :hover{
+cursor: pointer;
+ }
+  .sugerencias span:hover{
+    cursor: pointer;
+     }
 
  
 
